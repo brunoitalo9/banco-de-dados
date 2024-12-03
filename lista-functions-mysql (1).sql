@@ -175,7 +175,7 @@ SELECT WEEK(NOW());
 -- 4. Control Flow Functions
 -- IF(): Condicional simples.
 SELECT IF('A' = 'B', 'SIM', 'NÃO');
-SELECT IF(10 >= 7, 'APROVADO', IF(10 >= 4, 'RECUPERACAO', 'REPROVADO'));
+SELECT IF(10 >= 7, 'APROVADO', IF(10 >= 4, 'RECUPERACAO', 'REPROVADO') );
 SELECT IF(6 >= 7, 'APROVADO', IF(6 >= 4, 'RECUPERACAO', 'REPROVADO'));
 SELECT IF(2 >= 7, 'APROVADO', IF(2 >= 4, 'RECUPERACAO', 'REPROVADO'));
 

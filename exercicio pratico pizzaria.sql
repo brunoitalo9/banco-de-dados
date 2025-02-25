@@ -5,9 +5,9 @@ create user 'luiz_maia'@'%' identified by 'senai@123';
 
 grant insert, update, select on pizzaria.* to 'luiz_maia'@'%';
 
--- Informe o ip do seu computador para o instrutor.
+-- 2 Informe o ip do seu computador para o instrutor.
 
--- 192.168.56.1
+--  172.16.0.176
 
 --  3 Monitore as operações realizadas na tabela de auditoria au_pizza.
 
@@ -26,3 +26,4 @@ end $$
 
 delimiter ;    
 
+select * from pizza;
